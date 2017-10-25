@@ -4,7 +4,7 @@
 // Quick function to get the action of the player on their go.
 char getPlayerChoice()
 {
-    std::cout<<"Enter h to hit; s to stand: \n";
+    std::cout<<"Enter h to hit; s to stand: ";
 
     char playerChoice;
 
@@ -56,6 +56,7 @@ bool playBlackJack(Deck &deck)
         // The player looses if they exceed 21.
         if(playerTotal>21)
         {
+            std::cout << "you are bust on " << playerTotal << std::endl;
             return false;
         }
             
