@@ -75,6 +75,15 @@ private:
      *
      */
     static void swapCard(Card &card1, Card &card2);
+
+    /** 
+     * 
+     * \brief Test class for the Card.
+     * 
+     * Declare a TestCard friend member variable to allow access to private member variables in test class.
+     *
+     */
+    friend class TestDeck;
     
 public:
 

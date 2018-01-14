@@ -3,6 +3,6 @@ A text based game where the user plays the card game "Black Jack" against the co
 
 To build; run ```$ make```
 
-To play; run ```$ ./Blackjack```
+To play; run ```$ ./blackjack```
 
 For a full list of ```make``` functionality, including how to generate documentation, run ```$ make help```.

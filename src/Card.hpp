@@ -73,6 +73,15 @@ private:
 
     /// Member variable to hold the rank of the card.
     Rank m_rank;
+
+    /** 
+     * 
+     * \brief Test class for the Card.
+     * 
+     * Declare a TestCard friend member variable to allow access to private member variables in test class.
+     *
+     */
+    friend class TestCard;
     
 public:
 
