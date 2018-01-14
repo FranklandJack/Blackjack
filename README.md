@@ -5,4 +5,4 @@ To build; run ```$ make```
 
 To play; run ```$ ./blackjack```
 
-For a full list of ```make``` functionality, including how to generate documentation, run ```$ make help```.
+For a full list of ```make``` functionality, including how to generate documentation and run unit tests, run ```$ make help```.
